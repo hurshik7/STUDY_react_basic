@@ -27,6 +27,10 @@
   text-align: center;
 }
 
+.guessed {
+  display: none;
+}
+
 .container {
   width: 400px;
 }
