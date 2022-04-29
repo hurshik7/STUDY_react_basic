@@ -4,7 +4,7 @@ export default function({value, isShown}) {
         output = value;
     }
     return (
-        <span>
+        <span className="letter">
             {output}
         </span>
     );

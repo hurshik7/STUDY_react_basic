@@ -20,7 +20,7 @@ export default function({secretWord, guessedLetters}) {
         // javascript map mdn
         // 위에 처럼하면 letters안에 span이 문자 개수마다 생김
     return (
-        <div>
+        <div className='flex'>
             {letters}
         </div>
     );
