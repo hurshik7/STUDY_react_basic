@@ -1,4 +1,5 @@
 import LetterGrid from "./letter-grid";
+import ButtonGrid from "./button-grid";
 
 export default function({secretWord}) {
     return (
@@ -7,6 +8,7 @@ export default function({secretWord}) {
                 secretWord={secretWord}
                 guessedLetters={['a', 'r']}
             />
+            <ButtonGrid />
         </div>
     );
 }
