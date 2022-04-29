@@ -15,7 +15,7 @@ export default function() {
     ));
     // map은 새로운 배열을 만듬!
     return (
-        <div>
+        <div className="flex flex-wrap">
             {buttons}
         </div>
     );

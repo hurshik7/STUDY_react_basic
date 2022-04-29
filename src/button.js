@@ -1,6 +1,6 @@
 export default function ({value}) {
     return (
-        <button>
+        <button className="alphabet-button">
             {value}
         </button>
     );

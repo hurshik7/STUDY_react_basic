@@ -12,6 +12,25 @@
   display: flex;
 }
 
+.flex-wrap {
+  margin-top: 10px;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.alphabet-button {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  width: 34px;
+  text-align: center;
+}
+
+.container {
+  width: 400px;
+}
+
 body {
   background-color: honeydew;
   margin: 1rem;
