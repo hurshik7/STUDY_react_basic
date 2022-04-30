@@ -1,6 +1,6 @@
 import Button from "./button";
 
-export default function({letterGuessed}) {
+export default function({letterGuessed, isShown}) {
     /*
     a ~ z 배열 생성, 배열의 값마다 할일
     변수명 letters만들고
@@ -15,8 +15,14 @@ export default function({letterGuessed}) {
        /> 
     ));
     // map은 새로운 배열을 만듬!
+
+    let className = 'flex flex-wrap';
+    if (!isShown) {
+        className += ' hidden';
+    }
+
     return (
-        <div className="flex flex-wrap">
+        <div className={className}>
             {buttons}
         </div>
     );
