@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/SimpleHangman/static/css/main.ed05510d.css",
+    "main.js": "/SimpleHangman/static/js/main.31624d8b.js",
+    "static/js/787.28cb0dcd.chunk.js": "/SimpleHangman/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/SimpleHangman/index.html",
+    "main.ed05510d.css.map": "/SimpleHangman/static/css/main.ed05510d.css.map",
+    "main.31624d8b.js.map": "/SimpleHangman/static/js/main.31624d8b.js.map",
+    "787.28cb0dcd.chunk.js.map": "/SimpleHangman/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ed05510d.css",
+    "static/js/main.31624d8b.js"
+  ]
+}
