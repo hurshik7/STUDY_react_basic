@@ -27,7 +27,8 @@
   text-align: center;
 }
 
-.guessed {
+.guessed,
+.hidden {
   display: none;
 }
 
