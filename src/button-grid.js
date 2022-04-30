@@ -1,6 +1,6 @@
 import Button from "./button";
 
-export default function() {
+export default function({letterGuessed}) {
     /*
     a ~ z 배열 생성, 배열의 값마다 할일
     변수명 letters만들고
@@ -11,6 +11,7 @@ export default function() {
        <Button 
             value={letter}
             key={index}
+            onClick={letterGuessed} // button.js에서 넘어옴, game-board.js로 넘김
        /> 
     ));
     // map은 새로운 배열을 만듬!
